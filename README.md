@@ -1,6 +1,8 @@
 # Household Energy Access and Usage Survey
 
-A multilingual digital survey tool for collecting data on household electricity sources and energy usage patterns across Nigeria and Ghana.
+In many rural or underserved communities, respondents do not always have the luxury of communicating directly with enumerators in a shared language. Often, a third party—such as a local student or family member—must act as an informal translator, introducing the risk of miscommunication or filtered responses.
+
+To bridge this gap, this tool integrates multilingual support directly into the survey interface. By including common local languages (e.g., Igbo), enumerators can seamlessly switch languages to match the respondent’s preference—ensuring clarity, accuracy, and cultural sensitivity. This approach helps capture more authentic, unfiltered data while improving respondent comfort and engagement.
 
 ---
 
@@ -18,7 +20,15 @@ This XLSForm includes:
 
 ## 🎯 Purpose
 
-This survey is designed for use in communities where respondents may only understand local languages. Enumerators can toggle the form language between **English** and **Igbo** while collecting responses that are saved in clean, English-coded format for analysis.
+This project serves as an exploration of the nuances, flexibility, and advanced capabilities of the XLSForm framework in digital survey design. Beyond basic data collection, the goal is to push the boundaries of what's possible using XLSForm logic—integrating features like:
+
+- Multilingual interfaces
+- Smart skip logic and relevance expressions
+- Metadata capture and GPS enforcement
+- Constraint-driven validation
+- Dynamic calculations and rating widgets
+
+By designing a real-world, multilingual energy access survey, this project demonstrates how XLSForm can be leveraged not just for simplicity, but for powerful, logic-rich tools that adapt to field realities.
 
 ---
 
@@ -43,8 +53,8 @@ This survey is designed for use in communities where respondents may only unders
 
 | File | Description |
 |------|-------------|
-| `forms/Household_Energy_Access_and_Usage_Survey.xlsx` | Final XLSForm for KoBoToolbox or ODK |
-| `media/screenshots.png` | Optional screenshots of form UI |
+| `xlsform/Household_Energy_Access_and_Usage_Survey.xlsx` | Final XLSForm for KoBoToolbox or ODK |
+| `media/screenshots.png` | screenshots of form UI |
 | `README.md` | This documentation |
 
 ---
@@ -69,7 +79,8 @@ This survey is designed for use in communities where respondents may only unders
 ## 📖 License
 
 MIT — feel free to adapt and reuse with credit.
-"""
+---
 
-# enjoy!
+## 😊 enjoy!
+
 ``
